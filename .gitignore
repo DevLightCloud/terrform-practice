@@ -24,4 +24,4 @@ crash.log
 
 # Ignore log files
 *.log
-
+*.terraform.lock.hcl
