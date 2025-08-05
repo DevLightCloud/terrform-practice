@@ -1,0 +1,27 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+terraform.lock
+
+# Ignore crash logs
+crash.log
+
+# Ignore Terraform hidden directory
+.terraform/
+
+# Ignore override files
+*.tfvars
+*.tfvars.json
+
+# Ignore local .env files (if any)
+.env
+
+# Ignore editor/OS specific files
+.DS_Store
+*.swp
+*.swo
+*.bak
+
+# Ignore log files
+*.log
+
