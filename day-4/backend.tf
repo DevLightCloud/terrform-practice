@@ -3,5 +3,8 @@ terraform {
     bucket = "bucket-wavelight"
     key    = "day-4/terraform.tfstate"
     region = "ap-south-1"
+  #  use_lockfile = true
+  dynamodb_table = "wavelight07"
+  encrypt = true
   }
 }
